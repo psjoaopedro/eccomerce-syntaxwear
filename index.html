@@ -1,35 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SyntaxWear - E-commerce</title>
+    <title>SyntaxWear - Tênis e Sneakers Online</title>
     <meta name="description" content="SyntaxWear - Loja online de roupas e acessórios">
-    
+
     <!-- Favicons -->
     <link rel="icon" href="./favicons/favicon.ico">
     <link rel="apple-touch-icon" href="./favicons/apple-touch-icon.png">
-    
+
     <!-- CSS -->
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/variables.css">  
     <link rel="stylesheet" href="./css/base.css">
-    
+    <link rel="stylesheet" href="./css/header.css">
+
 </head>
+
 <body>
     <!-- Header com logo e navegação -->
     <header class="header">
-        <nav class="navbar">
-            <div class="logo">
-                <!-- Logo será adicionado aqui -->
-            </div>
-            <ul class="nav-menu">
-                <!-- Links de navegação serão adicionados aqui -->
+        <h1 class="logo">
+            <a href="/" title="SyntaxWear - Tênis e Sneakers Online">
+                <img src="./images/logo/logo.svg" alt="SyntaxWear - Tênis e Sneakers Online">
+            </a>
+        </h1>
+
+        <nav class="nav-center" aria-label="Categorias Principais">
+            <ul>
+                <li><a href="#">Masculino</a></li>
+                <li><a href="#">Feminino</a></li>
+                <li><a href="#">Outlet</a></li>
             </ul>
-            <div class="header-actions">
-                <!-- Carrinho, busca e conta serão adicionados aqui -->
-            </div>
         </nav>
+
+        <nav class="nav-right" aria-label="Menu secundário">
+            <ul>
+                <li><a href="#" class="nav-link">Nossas lojas</a></li>
+                <li><a href="#" class="nav-link">Sobre</a></li>
+                <li>
+                    <a href="#" class="nav-icon" aria-label="Minha conta">
+                        <img src="./images/icons/item-menu.svg" alt="Minha conta">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-icon" aria-label="Ajuda">
+                        <img src="./images/icons/help-support.svg" alt="Ajuda">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-icon" aria-label="Carrinho de compras">
+                        <img src="./images/icons/shopping-cart.svg" alt="Carrinho">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
     </header>
 
     <main class="main-content">
@@ -43,7 +71,7 @@
         <!-- Seção de categorias de tênis -->
         <section class="categories">
             <div class="container">
-                <h2 class="section-title">Categorias</h2>
+                <h2 class="section-title"></h2>
                 <div class="categories-grid">
                     <!-- Cards de categorias serão adicionados aqui -->
                 </div>
@@ -53,7 +81,7 @@
         <!-- Grid com produtos em destaque -->
         <section class="featured-products">
             <div class="container">
-                <h2 class="section-title">Produtos em Destaque</h2>
+                <h2 class="section-title"></h2>
                 <div class="products-grid">
                     <!-- Cards de produtos serão adicionados aqui -->
                 </div>
@@ -87,4 +115,5 @@
     <!-- Scripts -->
     <script src="./js/script.js"></script>
 </body>
+
 </html>
