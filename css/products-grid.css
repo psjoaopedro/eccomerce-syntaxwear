@@ -74,3 +74,31 @@
     display: flex;
     gap: 0.625rem;
 }
+
+@media screen  and (max-width: 768px) {
+    .grid-section { 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas: 
+        "top1 top1"
+        "bottomL bottomL"
+        "midL midR"
+        "midL bottomR"
+        "top2 top2";
+        max-width: 100%;
+        gap: 0.625rem;
+    }
+
+    .top1 {
+        min-height: 500px;
+    }
+
+    .midL {
+        min-height: 370px;
+    }
+
+    .bottomL, .top2 {
+        min-height: 190px;
+    }
+    
+}
