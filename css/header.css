@@ -1,11 +1,11 @@
 .header {
     background-color: #ffffff;
     position: fixed;
-    top: 60px;
+    top: 3.75rem;
     left: 50%;
     transform: translate(-50%);
-    width: calc(100% - 580px);
-    border-radius: 15px;
+    width: calc(100% - 36.25rem);
+    border-radius: 0.9375rem;
     z-index: 999;
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,7 @@
 }
 
 .logo img {
-    height: 48px;
+    height: 3rem;
 }
 
 .nav-center ul {
@@ -40,7 +40,7 @@
 }
 
 .nav-right img {
-    height: 20px;
+    height: 1.25rem;
 }
 
 .nav-right a:hover img {

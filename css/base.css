@@ -4,19 +4,19 @@ body {
 }
 
 main {
-    padding: 2.5rem 0 0;
-    max-width: 1360px;
+    padding: 2.5rem 0 2.5rem;
+    max-width: 85rem;
     margin: 0 auto;
 }
 
 
 .btn {
     font-size: 1.25rem;
-    width: 161px;
-    height: 48px;
-    border-radius: 25px;
+    width: 10.0625rem;
+    height: 3rem;
+    border-radius: 1.5625rem;
     color: #ffffff;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     transition: background-color 0.3s, border 0.3s;
 }
 
@@ -27,13 +27,13 @@ main {
 
 .btn-outline {
     background: transparent;
-    border: 2px solid #ffffff;
-    line-height: 23px;
+    border: 0.125rem solid #ffffff;
+    line-height: 1.4375rem;
 }
 
 .btn-filled {
     background: #ffffff;
     color: #6329A2;
     text-align: center;
-    line-height: 25px;
+    line-height: 1.5625rem;
 }
